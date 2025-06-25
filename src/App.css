@@ -32,6 +32,15 @@ body {
   font-weight: 300;
 }
 
+.counterStepsInput {
+  max-width: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
 .counter {
   font-size: 4rem;
   font-weight: 300;
@@ -40,6 +49,7 @@ body {
 .btn-container {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -57,4 +67,10 @@ ion-icon:hover {
   color: hsl(220, 52%, 43%);
   cursor: pointer;
   transition: color ease-in 0.25s;
+}
+
+ion-icon:active {
+  color: #ddd;
+  cursor: pointer;
+  transition: color ease-out 100ms;
 }
