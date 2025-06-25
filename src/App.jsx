@@ -22,9 +22,15 @@ function App() {
         <h1>React Counter App</h1>
         <span className='counter'>{counter}</span>
         <div className='btn-container'>
-          <button onClick={incrementCount}>+</button>
-          <button onClick={decrementCount}>-</button>
-          <button onClick={resetCount}>reset</button>
+          <button onClick={incrementCount}>
+            <ion-icon name='add-circle-outline'></ion-icon>
+          </button>
+          <button onClick={decrementCount}>
+            <ion-icon name='remove-circle-outline'></ion-icon>
+          </button>
+          <button onClick={resetCount}>
+            <ion-icon name='refresh-circle-outline'></ion-icon>
+          </button>
         </div>
       </div>
     </>
